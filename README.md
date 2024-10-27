@@ -18,11 +18,14 @@ follow [1]
 since i use the wifi module, which needs 1.8V, we need to select the switch in figure below to 1V8 instead of 3V3.
 [![1.8V selection](/images/PSoC6-062S2.jpg)]([Setup instruction](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-standard/hw-board/ifx-eval-kit/ifx-eval-kit))
 
+during project creation, select based on board, select KitProg3
+![project creation](/images/PSoC6-062S2-project-creation.jpg)
+
 # Conclusion
 
 # References
 [1] [Setup instruction (in Chinese)](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-standard/hw-board/ifx-eval-kit/ifx-eval-kit)\
-[2] [BLE example](https://github.com/RT-Thread-Studio/sdk-bsp-cy8c624-infineon-evaluationkit/tree/main/projects/cyw43012_ble_demo\
+[2] [BLE example](https://github.com/RT-Thread-Studio/sdk-bsp-cy8c624-infineon-evaluationkit/tree/main/projects/cyw43012_ble_demo)\
 [3] [WIFI example](https://club.rt-thread.org/ask/article/74bb091d04751d5a.html)\
 [4] [developer guide](https://docs.qq.com/doc/DZmpvR0xocFpVVGhQ)\
 [5] [markdown file creating link](https://anvilproject.org/guides/content/creating-links)
