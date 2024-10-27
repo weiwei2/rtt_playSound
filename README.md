@@ -16,10 +16,13 @@ the MCU is CY8C624ABZI-S2D44 which contains Cortex-M4 150MHz, Cortex-M0 100MHz, 
 # Setup
 follow setup instruction in [1] 
 since i use the wifi module cyw43012 , which needs 1.8V, we need to select the switch (1) in figure below to 1V8 instead of 3V3. cyw43012 module orientation should follow (2) in the figure
-![1.8V selection](/images/PSoC6-062S2.jpg)
+![1.8V selection](/images/PSoC6-062S2.jpg){width=320 height=320}
 
 during project creation, select based on board, select KitProg3
 ![project creation](/images/PSoC6-062S2-project-creation.jpg)
+
+enable network and socket
+![RT-Thread Settings](/images/component_settings.jpg)
 
 # Conclusion
 
