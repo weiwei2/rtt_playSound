@@ -143,7 +143,21 @@
 
 /* Network */
 
+#define RT_USING_SAL
+#define SAL_INTERNET_CHECK
+
+/* Docking with protocol stacks */
+
+#define SAL_USING_LWIP
+/* end of Docking with protocol stacks */
+#define SAL_SOCKETS_NUM 16
+#define RT_USING_NETDEV
+#define NETDEV_USING_IFCONFIG
 #define NETDEV_USING_PING
+#define NETDEV_USING_NETSTAT
+#define NETDEV_USING_AUTO_DEFAULT
+#define NETDEV_IPV4 1
+#define NETDEV_IPV6 0
 #define RT_USING_LWIP
 #define RT_USING_LWIP203
 #define RT_USING_LWIP_VER_NUM 0x20003

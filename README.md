@@ -24,6 +24,9 @@ during project creation, select based on board, select KitProg3
 enable network and socket
 ![RT-Thread Settings](/images/component_settings.jpg)
 
+if during debug encounter openocd error, please set it in debugger settings, to C:\RT-ThreadStudio\repo\Extract\Debugger_Support_Packages\Infineon\OpenOCD-Infineon\1.0.0\bin\openocd.exe
+![openocd settings](/images/openocd_infineon.jpg)
+
 # Conclusion
 
 # References
