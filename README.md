@@ -11,15 +11,18 @@ bird like pigeon is a nuisance to condominium dwellers where they shit and dirty
 
 # System Diagram
 
+the MCU is CY8C624ABZI-S2D44 which contains Cortex-M4 150MHz, Cortex-M0 100MHz, 2MB Flash and 1MB SRAM MCU
+
 # Setup
 follow [1] 
-since i use the wifi module, which needs 1.8V, we need to painstakingly change the resistor on Psoc6-evaluationkit-062S2
+since i use the wifi module, which needs 1.8V, we need to select the switch in figure below to 1V8 instead of 3V3.
+[![1.8V selection](/images/PSoC6-062S2.jpg)]([Setup instruction](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-standard/hw-board/ifx-eval-kit/ifx-eval-kit))
 
 # Conclusion
 
 # References
-[1] [Setup instruction (in Chinese)](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-standard/hw-board/ifx-eval-kit/ifx-eval-kit)
-[2] [BLE example](https://github.com/RT-Thread-Studio/sdk-bsp-cy8c624-infineon-evaluationkit/tree/main/projects/cyw43012_ble_demo)
-[3] [WIFI example](https://club.rt-thread.org/ask/article/74bb091d04751d5a.html)
-[4] [developer guide](https://docs.qq.com/doc/DZmpvR0xocFpVVGhQ)
+[1] [Setup instruction (in Chinese)](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-standard/hw-board/ifx-eval-kit/ifx-eval-kit)\
+[2] [BLE example](https://github.com/RT-Thread-Studio/sdk-bsp-cy8c624-infineon-evaluationkit/tree/main/projects/cyw43012_ble_demo\
+[3] [WIFI example](https://club.rt-thread.org/ask/article/74bb091d04751d5a.html)\
+[4] [developer guide](https://docs.qq.com/doc/DZmpvR0xocFpVVGhQ)\
 [5] [markdown file creating link](https://anvilproject.org/guides/content/creating-links)
